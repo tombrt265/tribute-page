@@ -1,0 +1,62 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.playfair-display-normal-text {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #2d3047;
+}
+
+.playfair-display-title-1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #2d3047;
+}
+
+body {
+  background-color: #c6c7c4;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  margin: 80px 160px;
+  padding: 20px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #eef0f2;
+  border-radius: 20px;
+  border: 2px solid #353b3c;
+  box-shadow: 15px 15px #353B3C;
+}
+
+.top-section, .bottom-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-size: 0.8em;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #353b3c;
+}
+
+.top-section > div > p, .mid-section > div > p, .bottom-section > div > p {
+  text-align: justify;
+  width: 80%;
+}
+
+.mid-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    font-size: 0.8em;
+    border-bottom: 2px solid #353b3c;
+}
+
+.bottom-section {
+    border: none;
+}
